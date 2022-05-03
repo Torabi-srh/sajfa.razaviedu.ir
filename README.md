@@ -1,73 +1,48 @@
-<p align="center" style="margin-bottom: 32px">
-  <a href="https://erdkse.com" >
-    <img src="https://raw.githubusercontent.com/erdkse/adminlte-3-vue/main/src/assets/img/logo.png" alt="AdminLTE logo" width="75" height="75">
-  </a>
-</p>
+# sajfa.razaviedu.ir
 
-<h1 align="center">Admin LTE 3.2.0 - Vue 3.2.31</h1>
+This template should help get you started developing with Vue 3 in Vite.
 
-<p>
-  This repository is a form of original AdminLTE project. It is aim to use AdminLTE template with Vue.
-</p>
-<br>
+## Recommended IDE Setup
 
-<span align="center">
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
 
-[![Run on Repl.it](https://repl.it/badge/github/erdkse/adminlte-3-vue)](https://repl.it/github/erdkse/adminlte-3-vue)
-![Vercel](https://img.shields.io/github/deployments/erdkse/adminlte-3-vue/production.svg?logo=vercel&label=vercel)
-![Issues](https://img.shields.io/github/issues/erdkse/adminlte-3-vue)
-![Forks](https://img.shields.io/github/forks/erdkse/adminlte-3-vue)
-![Stars](https://img.shields.io/github/stars/erdkse/adminlte-3-vue)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-![GitHub last commit](https://img.shields.io/github/last-commit/erdkse/adminlte-3-vue.svg)
-[![License](https://img.shields.io/github/license/erdkse/adminlte-3-vue.svg)](LICENSE)
-![Sponsors](https://img.shields.io/github/sponsors/erdkse.svg)
+## Customize configuration
 
-</span>
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-<br>
+## Project Setup
 
-To login website use:
-
-`username:` admin@example.com<br />
-`password:` admin<br />
-
-## Project setup
-
-```
+```sh
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile and Hot-Reload for Development
 
-```
-npm run serve
+```sh
+npm run dev
 ```
 
-### Compiles and minifies for production
+### Compile and Minify for Production
 
-```
+```sh
 npm run build
 ```
 
-### Run your unit tests
+### Run Unit Tests with [Cypress Component Testing](https://docs.cypress.io/guides/component-testing/introduction)
 
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-
-```
-npm run test:e2e
+```sh
+npm run test:unit # or `npm run test:unit:ci` for headless testing
 ```
 
-### Lints and fixes files
+### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
 
+```sh
+npm run build
+npm run test:e2e # or `npm run test:e2e:ci` for headless testing
 ```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
 npm run lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
