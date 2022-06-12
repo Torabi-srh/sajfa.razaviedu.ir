@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       colors: {
         'cadet-blue': '#5f9ea0',
+        'cadet-black': '#3a3633',
+        'cadet-border': '#525151',
       },
     },
   },

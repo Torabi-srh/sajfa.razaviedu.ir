@@ -1,55 +1,80 @@
+<script setup>
+import HomeSecondTabs from "./HomeSecondTabs.vue";
+</script>
+
 <template>
-  <p class="tabpanelheader">
-    اطلاعیه های عمومی ( جهت مشاهده ، گروه مربوط به خود را انتخاب نمایید. )
-  </p>
-  <div class="wrapper">
-    <button class="change__style" @click="changeStyle()">Change Style</button>
-    <tabs :mode="mode">
-      <tab title="Tab 1">Hello From Tab 1</tab>
-      <tab title="Tab 2">Hello From Tab 2</tab>
-      <tab title="Tab 3">Hello From Tab 3</tab>
-      <tab title="Tab 4">Hello From Tab 4</tab>
-    </tabs>
+  <div class="grid justify-items-center items-center">
+    <h2 class="text-cadet-blue text-1xl my-4">
+      اطلاعیه های عمومی ( جهت مشاهده ، گروه مربوط به خود را انتخاب نمایید. )
+    </h2>
+  </div>
+  <div class="container mx-auto border">
+    <ul role="tablist" class="flex text-white">
+      <li class="mx-1">
+        <button
+          @click="currentTab(1)"
+          :class="
+            tab == 1
+              ? 'active bg-white text-blue-500 border-t-4 border-blue-700'
+              : 'text-white bg-blue-500 hover:bg-blue-400'
+          "
+          class="font-bold py-2 px-4 hover:border-blue-500 rounded"
+        >
+          پرسنل اداری
+        </button>
+      </li>
+      <li class="mx-1">
+        <button
+          @click="currentTab(2)"
+          :class="
+            tab == 2
+              ? 'active bg-white text-blue-500 border-t-4 border-blue-700'
+              : 'text-white bg-blue-500 hover:bg-blue-400'
+          "
+          class="font-bold py-2 px-4 hover:border-blue-500 rounded"
+        >
+          مدیران واحدهای سازمانی
+        </button>
+      </li>
+      <li class="mx-1">
+        <button
+          @click="currentTab(3)"
+          :class="
+            tab == 3
+              ? 'active bg-white text-blue-500 border-t-4 border-blue-700'
+              : 'text-white bg-blue-500 hover:bg-blue-400'
+          "
+          class="font-bold py-2 px-4 hover:border-blue-500 rounded"
+        >
+          سایر شاغلین
+        </button>
+      </li>
+    </ul>
+    <div class="p-3 mt-1 bg-white border">
+      <div v-if="tab === 1">
+        <HomeSecondTabs />
+      </div>
+      <div v-if="tab === 2">
+        <HomeSecondTabs />
+      </div>
+      <div v-if="tab === 3">
+        <HomeSecondTabs />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Tab from "../Tab.vue";
-import Tabs from "../Tabs.vue";
 export default {
-  components: {
-    Tab,
-    Tabs,
-  },
   data() {
     return {
-      mode: "dark",
+      tab: 1,
     };
   },
   methods: {
-    changeStyle() {
-      if (this.mode === "dark") {
-        this.mode = "light";
-      } else {
-        this.mode = "dark";
-      }
+    currentTab: function (tabNumber) {
+      this.tab = tabNumber;
     },
   },
 };
 </script>
-
-<style scoped>
-.wrapper {
-  width: 100%;
-  min-height: 100vh;
-  background-color: #f8f8f8;
-  margin: 0;
-  padding: 20px;
-}
-.change__style {
-  background-color: #eee;
-  font-size: 1em;
-  margin-bottom: 10px;
-  padding: 5px;
-}
-</style>
