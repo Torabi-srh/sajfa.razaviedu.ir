@@ -1,15 +1,9 @@
 <template>
-  <div class="z-10 border-b bg-neutral-700 lg:py-2.5">
-    <div class="px-6 flex items-center justify-between space-x-4 2xl:container">
-      <ol class="inline-flex items-center space-x-1 md:space-x-3 breadcrumb">
-        <li>
-            <span class="mr-1 text-sm font-medium md:ml-2 text-gray-300 dark:text-gray-400">خانه</span>
-        </li>
-        <li>
-            <span class="mr-1 text-sm font-medium md:ml-2 text-gray-300 dark:text-gray-400">پيشخوان</span>
-        </li>
-      </ol>
-    </div>
+  <div id="ribbon">
+    <ol class="flex flex-wrap list-reset pt-3 pb-3 py-4 px-4 mb-4 rounded breadcrumb">
+      <li>خانه</li>
+      <li>پيشخوان</li>
+    </ol>
   </div>
 </template>
 

@@ -1,36 +1,52 @@
 <template>
-  <header class="flex flex-row w-full">
-    <div class="w-4/5">
-      <div
-        class="grid justify-items-center items-center px-4 py-1 rounded-sm border border-slate-900 bg-slate-100 hover:bg-slate-200 text-rose-900 font-black">
-        <span>همکار
-          محترم، سحر
-          ترابی دشت
-          بیاض
-          (30379924)
-          <span class="text-indigo-800">، به سامانه جامع فرآیندهای اداری آموزشی (سجفا) خوش آمدید.
-          </span>
+  <header id="header">
+
+    <div id="logo-group1" style="width:20px !important;">
+      <span id="logo"> </span>
+    </div>
+    <div style="text-align: center; font-weight: 700; font-size: 14px; width:75%; " id="logo-group">
+      <span style="font-size: 14px;width: 100%; color: #8f0e17" id="activity">همکار محترم، سحر ترابی دشت بیاض (30379924)
+        <!--            <span style="font-size: 14px;color: blueviolet;">، به سامانه مدیریت و برنامه ریزی نیروی انسانی (مبنا)  خوش آمديد. </span>-->
+        <span style="font-size: 14px;color: blueviolet;">، به سامانه جامع فرآیندهای اداری آموزشی (سجفا) خوش آمدید.
         </span>
-      </div>
+
+      </span>
+
     </div>
 
-    <div class="w-1/5 flex flex-row-reverse gap-4">
-      <div class="p-1 rounded-sm border border-slate-900 bg-slate-100 hover:bg-slate-200">
-        <a title="نمایش منوها" class="">
-          <font-awesome-icon :icon="['fa', 'reorder']" />
-        </a>
+
+    <!-- pulled right: nav area -->
+    <div class="pull-right">
+
+      <!-- collapse menu button -->
+      <div id="hide-menu" class="btn-header pull-right">
+        <span> <a href="javascript:void(0);" data-action="toggleMenu" title="نمایش منوها">
+            <font-awesome-icon :icon="['fa', 'reorder']" />
+          </a> </span>
       </div>
-      <div class="p-1 rounded-sm border border-slate-900 bg-slate-100 hover:bg-slate-200">
-        <a href="/logout" title="خروج" class="text-red-600 font-black">
-          <font-awesome-icon :icon="['fa', 'sign-out']" /> خروج
-        </a>
+      <!-- end collapse menu -->
+
+
+      <!-- logout button -->
+      <div id="logout" class="btn-header transparent pull-right">
+        <span> <a href="/logout" style="color: red ! important" title="خروج" data-action="userLogout"
+            data-logout-msg="جهت امنیت بیشتر پس از خروج، مرورگر خود را ببندید.">
+            <font-awesome-icon :icon="['fa', 'sign-out']" /> خروج
+          </a>
+        </span>
       </div>
-      <div class="p-1 rounded-sm border border-slate-900 bg-slate-100 hover:bg-slate-200">
-        <a title="تمام صفحه">
-          <font-awesome-icon :icon="['fa', 'arrows-alt']" />
-        </a>
+      <!-- end logout button -->
+
+      <!-- fullscreen button -->
+      <div id="fullscreen" class="btn-header transparent pull-right">
+        <span> <a href="javascript:void(0);" data-action="launchFullscreen" title="تمام صفحه">
+            <font-awesome-icon :icon="['fa', 'arrows-alt']" />
+          </a> </span>
       </div>
+      <!-- end fullscreen button -->
+
     </div>
+    <!-- end pulled right: nav area -->
   </header>
 </template>
 
