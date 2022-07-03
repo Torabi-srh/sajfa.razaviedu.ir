@@ -29,8 +29,7 @@
 
       <!-- logout button -->
       <div id="logout" class="btn-header transparent pull-right">
-        <span> <a href="/logout" style="color: red ! important" title="خروج" data-action="userLogout"
-            data-logout-msg="جهت امنیت بیشتر پس از خروج، مرورگر خود را ببندید.">
+        <span> <a href="/logout" title="خروج" style="color: red;">
             <font-awesome-icon :icon="['fa', 'sign-out']" /> خروج
           </a>
         </span>
@@ -40,7 +39,7 @@
       <!-- fullscreen button -->
       <div id="fullscreen" class="btn-header transparent pull-right">
         <span> <a href="javascript:void(0);" data-action="launchFullscreen" title="تمام صفحه">
-            <font-awesome-icon :icon="['fa', 'arrows-alt']" />
+            <font-awesome-icon :icon="['fa', 'arrows-alt']" style="-ms-transform: rotate(45deg); transform: rotate(45deg);" />
           </a> </span>
       </div>
       <!-- end fullscreen button -->

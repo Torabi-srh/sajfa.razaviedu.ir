@@ -1,4 +1,4 @@
-.active-btn{
+.active-btn {
     background-color: #3276b1;
     border-color: #3276b1;
     color: #fff;
@@ -10,7 +10,8 @@
     position: relative;
     z-index: 3;
 }
-#busy-indicator{
+
+#busy-indicator {
     display: none;
     position: absolute;
     left: 50%;
@@ -21,28 +22,32 @@
     background-color: white;
 }
 
-.action_toolbar{
+.action_toolbar {
     padding-left: 3px;
 }
 
-.red{
+.red {
     color: red;
 }
-.green{
+
+.green {
     color: green;
 }
-.yellow{
-    color:#FF8000
+
+.yellow {
+    color: #FF8000
 }
-.activfilter{
-    background-color: #b09b5b  !important;
+
+.activfilter {
+    background-color: #b09b5b !important;
 }
+
 .new-wizard>li {
     width: 6.1%;
 }
 
-.wizard-content1 label{
-     background: #fff none repeat scroll 0 0;
+.wizard-content1 label {
+    background: #fff none repeat scroll 0 0;
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     color: #222;
     display: block;
@@ -50,14 +55,40 @@
     font-weight: 300;
     padding: 8px 0;
 }
-.box-panel{
+
+.box-panel {
     border: 1px groove #999999 !important;
-    padding: 0 1.4em 0.3em 1.4em !important; /*i edit*/
-    margin: 10px 0 0 0 !important; /*i edit*/
-    -webkit-box-shadow:  0px 0px 0px 0px #000;
-            box-shadow:  0px 0px 0px 0px #000;
+    padding: 0 1.4em 0.3em 1.4em !important;
+    /*i edit*/
+    margin: 10px 0 0 0 !important;
+    /*i edit*/
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
 }
-.box-panel legend{
+
+.label-success {
+    background-color: #739e73;
+}
+
+.label-greenLight {
+    background-color: #71843f !important;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    padding-right: 0.6em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.box-panel legend {
     font-size: 1.1em !important;
     font-weight: bold !important;
     text-align: right !important;
@@ -65,23 +96,27 @@
     margin-top: 5px;
     padding-right: 10px;
 }
-.box-panel span{
+
+.box-panel span {
     font-size: 1em !important;
     color: black !important;
 }
-.box-panel1 span1{
+
+.box-panel1 span1 {
     font-size: 1.5em !important;
     color: #496949 !important;
 }
-.box-panel1{
+
+.box-panel1 {
     background-color: bisque;
     border: 2px groove #ddd !important;
     padding: 0 1.4em 1.4em 1.4em !important;
     margin: 0 0 1.5em 0 !important;
-    -webkit-box-shadow:  0px 0px 0px 0px #000;
-            box-shadow:  0px 0px 0px 0px #000;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
 }
-.box-panel1 legend{
+
+.box-panel1 legend {
     font-size: 1.2em !important;
     font-weight: bold !important;
     text-align: right !important;
@@ -91,10 +126,10 @@
     background-color: brown;
     border: 1px black solid;
 }
-.box-panel1 span{
 
-}
-.inputDate{
+.box-panel1 span {}
+
+.inputDate {
     background: white;
     border: 1px solid #cccccc;
     border-radius: 4px;
@@ -108,14 +143,17 @@
     text-align: center;
     font-size: 15px
 }
-.input-group{
+
+.input-group {
     width: 97%;
 }
-.checkboxdiv{
+
+.checkboxdiv {
     display: inline;
     margin-left: 50px;
 }
-.checkboxselected{
+
+.checkboxselected {
     background-color: black;
     border: 1px black solid;
     border-radius: 4px;
@@ -125,8 +163,9 @@
     width: 17px;
     margin-right: 10px;
 }
-.checkboxunselected{
-    background-color:white;
+
+.checkboxunselected {
+    background-color: white;
     border: 1px black solid;
     border-radius: 4px;
     display: inline;
@@ -136,104 +175,114 @@
     margin-right: 10px;
 }
 
-.rotate td{
-  width: 40px;
-  border-top: 1px solid #dddddd;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;
-  vertical-align: middle;
-  text-align: center;
+.rotate td {
+    width: 40px;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .rotate {
-  height: 80px;
-  width: 40px;
-  min-width: 40px;
-  max-width: 40px;
-  position: relative;
-  vertical-align: bottom;
-  padding: 0;
-  font-size: 12px;
-  line-height: 0.8;
+    height: 80px;
+    width: 40px;
+    min-width: 40px;
+    max-width: 40px;
+    position: relative;
+    vertical-align: bottom;
+    padding: 0;
+    font-size: 12px;
+    line-height: 0.8;
 }
-.asc{
+
+.asc {
     background: rgba(0, 0, 0, 0) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATAQMAAABInqSPAAAABlBMVEUAAABVVVUT3Vn+AAAAAXRSTlMAQObYZgAAAB1JREFUCNdjwAkcgPgBAwPjBwYG5h8MDOx/GAgBAKRJBBCQbHkwAAAAAElFTkSuQmCC") no-repeat scroll left center;
     padding-left: 20px;
 }
-.desc{
-   background: rgba(0, 0, 0, 0) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATAQMAAABInqSPAAAABlBMVEUAAABVVVUT3Vn+AAAAAXRSTlMAQObYZgAAABxJREFUCNdjIATY/zAwMP9gYGD8AOQ8AGIHnEoBkNkEEEbbutQAAAAASUVORK5CYII=") no-repeat scroll left center;
-   padding-left: 20px; 
-} 
 
-.rotate div{
+.desc {
+    background: rgba(0, 0, 0, 0) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATAQMAAABInqSPAAAABlBMVEUAAABVVVUT3Vn+AAAAAXRSTlMAQObYZgAAABxJREFUCNdjIATY/zAwMP9gYGD8AOQ8AGIHnEoBkNkEEEbbutQAAAAASUVORK5CYII=") no-repeat scroll left center;
+    padding-left: 20px;
+}
+
+.rotate div {
     position: relative;
-  top: 0px;
-  left: 40px; /* 80 * tan(45) / 2 = 40 where 80 is the height on the cell and 45 is the transform angle*/
-  height: 100%;
-  -ms-transform:skew(-45deg,0deg);
-  -moz-transform:skew(-45deg,0deg);
-  -webkit-transform:skew(-45deg,0deg);
-  -o-transform:skew(-45deg,0deg);
-  transform:skew(-90deg,0deg);
-  overflow: hidden;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd;
-  border-top: 1px solid #dddddd;
+    top: 0px;
+    left: 40px;
+    /* 80 * tan(45) / 2 = 40 where 80 is the height on the cell and 45 is the transform angle*/
+    height: 100%;
+    -ms-transform: skew(-45deg, 0deg);
+    -moz-transform: skew(-45deg, 0deg);
+    -webkit-transform: skew(-45deg, 0deg);
+    -o-transform: skew(-45deg, 0deg);
+    transform: skew(-90deg, 0deg);
+    overflow: hidden;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
 }
+
 .rotate span {
-  -ms-transform:skew(45deg,0deg) rotate(315deg);
-  -moz-transform:skew(90deg,0deg) rotate(315deg);
-  -webkit-transform:skew(45deg,0deg) rotate(315deg);
-  -o-transform:skew(45deg,0deg) rotate(315deg);
-  transform:skew(45deg,0deg) rotate(315deg);
-  position: absolute;
-  bottom: 30px; /* 40 cos(45) = 28 with an additional 2px margin*/
-  left: -25px; /*Because it looked good, but there is probably a mathematical link here as well*/
-  display: inline-block;
-  width: 85px; /* 80 / cos(45) - 40 cos (45) = 85 where 80 is the height of the cell, 40 the width of the cell and 45 the transform angle*/
-  text-align: left;
+    -ms-transform: skew(45deg, 0deg) rotate(315deg);
+    -moz-transform: skew(90deg, 0deg) rotate(315deg);
+    -webkit-transform: skew(45deg, 0deg) rotate(315deg);
+    -o-transform: skew(45deg, 0deg) rotate(315deg);
+    transform: skew(45deg, 0deg) rotate(315deg);
+    position: absolute;
+    bottom: 30px;
+    /* 40 cos(45) = 28 with an additional 2px margin*/
+    left: -25px;
+    /*Because it looked good, but there is probably a mathematical link here as well*/
+    display: inline-block;
+    width: 85px;
+    /* 80 / cos(45) - 40 cos (45) = 85 where 80 is the height of the cell, 40 the width of the cell and 45 the transform angle*/
+    text-align: left;
 }
-.rotate1{
+
+.rotate1 {
     float: left;
-    transform-origin: center right  0;
+    transform-origin: center right 0;
 
-/* Safari */
--webkit-transform: rotate(-90deg);
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
 
-/* Firefox */
--moz-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
 
-/* IE */
--ms-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
 
-/* Opera */
--o-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
 
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 }
-.searchitem{
+
+.searchitem {
     margin-right: 5px;
 }
 
 /* -------------- dashboard ------------*/
-#dashboard{
+#dashboard {
     box-sizing: border-box;
     color: #fff;
-   /* 
+    /* 
    display: none;
    position: absolute;
    */
     height: auto;
     left: 0;
     margin: 10px;
-    
+
     text-align: center;
     top: 0;
     width: 98%;
-    z-index: 50;  
+    z-index: 50;
 }
+
 #dashboard ul {
     border-bottom: 1px solid #423f3f;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -241,6 +290,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     margin: 0;
     padding: 15px 20px 10px;
 }
+
 #dashboard ul li {
     display: inline-block;
     width: auto;
@@ -251,113 +301,147 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     border-radius: 0;
     margin: 0 3px 3px;
 }
+
 #dashboard ul {
     list-style: outside none none;
 }
+
 .jarvismetro-tile .iconbox span {
     text-align: center !important;
     font-size: 16px;
     font-weight: bold;
 }
+
 #dashboard ul li .jarvismetro-tile {
     color: #fff;
     text-decoration: none;
 }
+
 #dashboard .jarvismetro-tile.big-cubes {
     height: 160px;
     width: 140px;
 }
-.total{
+
+.total {
     background-color: antiquewhite !important;
     font-size: 20px;
     font-weight: bold;
 }
+
 .label-greenLight {
-  background-color: #71843f !important;
+    background-color: #71843f !important;
 }
+
 .label-green {
-  background-color: #356e35 !important;
+    background-color: #356e35 !important;
 }
+
 .label-greenDark {
-  background-color: #496949 !important;
+    background-color: #496949 !important;
 }
+
 .label-redLight {
-  background-color: #a65858 !important;
+    background-color: #a65858 !important;
 }
+
 .label-orange {
-  background-color: #c79121 !important;
+    background-color: #c79121 !important;
 }
+
 .label-yellow {
-  background-color: #b09b5b !important;
+    background-color: #b09b5b !important;
 }
-.editedrow{
-   background-color: sandybrown; 
+
+.editedrow {
+    background-color: sandybrown;
 }
-.edituser{
-     border-radius: 50px;
+
+.edituser {
+    border-radius: 50px;
     font-size: 20px;
     font-weight: bold;
-    width: 80%; 
+    width: 80%;
 }
 
 
-.table > tbody > tr > td, .table > tbody > tr > th{
-  padding: 1px 2px;  
+.table>tbody>tr>td,
+.table>tbody>tr>th {
+    padding: 1px 2px;
 }
-.label-blueLight{background-color: #92a2a8 !important;}
-.label-magenta{background-color: #6e3671 !important;}
-.fieldset-span{
+
+.label-blueLight {
+    background-color: #92a2a8 !important;
+}
+
+.label-magenta {
+    background-color: #6e3671 !important;
+}
+
+.fieldset-span {
     background-color: #f5f5f5;
     color: #333;
     border: 1px solid #ccc;
     padding: 0px 5px 0px 5px;
 }
 
-.all_border{
-    border:  1px solid black !important;
+.all_border {
+    border: 1px solid black !important;
 }
-.T_border{
+
+.T_border {
     border-top: 2px solid black !important;
 }
-.B_border{
+
+.B_border {
     border-bottom: 1px solid black !important;
 }
-.R_border{
+
+.R_border {
     border-right: 1px solid black !important;
 }
-.L_border{
+
+.L_border {
     border-left: 1px solid black !important;
 }
-.boy_color{
+
+.boy_color {
     background-color: #BBFFFF
 }
-.boy_klas_color{
+
+.boy_klas_color {
     background-color: #00e6e6
 }
-.girl_color{
+
+.girl_color {
     background-color: #FCCDFF
 }
-.girl_klas_color{
+
+.girl_klas_color {
     background-color: #f780ff
 }
-.mo_color{
+
+.mo_color {
     background-color: #FFFD7C
 }
-.stu_color{
-    background-color:  #99ff99
+
+.stu_color {
+    background-color: #99ff99
 }
-.filter-option{
+
+.filter-option {
     margin-bottom: 5px;
-background-color: navajowhite;
+    background-color: navajowhite;
 }
-.filter-option1 .checkbox-inline  >label{
+
+.filter-option1 .checkbox-inline>label {
     font-weight: 700 !important;
 }
 
-.checkbox-inline1 >label{
+.checkbox-inline1>label {
     font-weight: 500px !important;
 }
-.pesronal_name{
+
+.pesronal_name {
     color: brown;
     font-size: 16px;
     background-color: bisque;
@@ -365,254 +449,304 @@ background-color: navajowhite;
     font-weight: bold;
     margin-bottom: 2px;
 }
-.pesronal_code{
+
+.pesronal_code {
     color: darkred;
     font-size: 13px;
     font-weight: bold;
 }
-.enteghal_mamuer{
+
+.enteghal_mamuer {
     background-color: powderblue;
     margin: 2px;
     border-radius: 10px;
 }
-.enteghal_mamuer .maghsad{
+
+.enteghal_mamuer .maghsad {
     color: crimson;
     font-weight: bold;
 }
 
-.enteghal_mamuer .mabda{
+.enteghal_mamuer .mabda {
     font-weight: bold;
     color: darkmagenta;
 }
-.enteghal_mamuer .title{
-    font-weight: bold;  
+
+.enteghal_mamuer .title {
+    font-weight: bold;
     color: teal;
 }
-.enteghal_mamuer_region{
+
+.enteghal_mamuer_region {
     background-color: turquoise;
     border-radius: 7px;
     margin: 2px;
 }
-.enteghal_mamuer_region >span{
+
+.enteghal_mamuer_region>span {
     font-weight: bold;
     color: mediumblue;
 }
-.end_esteghal{
+
+.end_esteghal {
     background-color: burlywood;
     border-radius: 7px;
     margin: 2px;
 }
-.end_esteghal >span{
+
+.end_esteghal>span {
     font-weight: bold;
     color: crimson;
 }
-.semat_title{
-    font-weight: bold;  
+
+.semat_title {
+    font-weight: bold;
     background-color: #b82e8a;
     border-radius: 5px;
     color: white;
     margin: 2px;
 }
-.reshtetadris_semat_title{
+
+.reshtetadris_semat_title {
     font-weight: bold;
     font-size: 13px;
     padding: .0em .6em .0em;
     margin: 10px;
 }
-.reshtegholi{
+
+.reshtegholi {
     font-weight: bold;
 }
-.eshteghal-1{
+
+.eshteghal-1 {
     background-color: #5c9900;
     color: white;
     margin: 2px;
     border-radius: 7px;
     padding: 0 4px;
 }
-.eshteghal-2{
+
+.eshteghal-2 {
     background-color: olive;
     color: white;
     margin: 2px;
     border-radius: 7px;
     padding: 0 4px;
 }
-.eshteghal-3{
+
+.eshteghal-3 {
     background-color: blueviolet;
     color: white;
     margin: 2px;
     border-radius: 7px;
     padding: 0 4px;
 }
-.eshteghal-4{
+
+.eshteghal-4 {
     background-color: peru;
     color: white;
     margin: 2px;
     border-radius: 7px;
     padding: 0 4px;
 }
-.eshteghal-5{
+
+.eshteghal-5 {
     background-color: dimgrey;
     color: white;
     margin: 2px;
     border-radius: 7px;
     padding: 0 4px;
 }
-.eshteghal-6{
+
+.eshteghal-6 {
     background-color: greenyellow;
     color: #3d6600;
     margin: 2px;
     border-radius: 7px;
     padding: 0 4px;
 }
-.eshteghal-7{
+
+.eshteghal-7 {
     background-color: #ffd199;
-    color: brown;;
+    color: brown;
+    ;
     margin: 2px;
     border-radius: 7px;
     padding: 0 4px;
 }
-.eshteghal-8{
-    background-color: darkcyan;;
-    color: white;;
+
+.eshteghal-8 {
+    background-color: darkcyan;
+    ;
+    color: white;
+    ;
     margin: 2px;
     border-radius: 7px;
     padding: 0 4px;
 }
-.back-colored{
+
+.back-colored {
     margin: 2px;
     border-radius: 7px;
     padding: 0 4px;
 }
-.back-colored-orange1{
+
+.back-colored-orange1 {
     background-color: orangered;
 }
-.back-colored-orange2{
+
+.back-colored-orange2 {
     background-color: peru;
 }
-.back-colored-orange3{
+
+.back-colored-orange3 {
     background-color: #ffd199;
 }
-.back-colored-green1{
+
+.back-colored-green1 {
     background-color: #5c9900;
 }
-.back-colored-green2{
+
+.back-colored-green2 {
     background-color: olive;
 }
-.back-colored-green3{
+
+.back-colored-green3 {
     background-color: greenyellow;
 }
-.back-colored-blue{
-    background-color:blue;
+
+.back-colored-blue {
+    background-color: blue;
 }
-.back-colored-blue1{
+
+.back-colored-blue1 {
     background-color: darkcyan;
 }
-.back-colored-blue2{
+
+.back-colored-blue2 {
     background-color: blueviolet;
 }
-.back-colored-gray1{
+
+.back-colored-gray1 {
     background-color: dimgrey;
 }
 
 
-.madrak{
+.madrak {
     background-color: seagreen;
-    color:white;
+    color: white;
     margin: 2px;
     border-radius: 5px;
 }
-.estekdam_status{
+
+.estekdam_status {
     background-color: chocolate;
-    color:white;
+    color: white;
     border-radius: 5px;
     font-size: 12px;
 }
-.madrak_old{
+
+.madrak_old {
     background-color: greenyellow;
     color: #3d6600;
     margin: 2px;
     border-radius: 10px;
 }
-.madrak1{
+
+.madrak1 {
     background-color: #ccff80;
     color: #3d6600;
     margin: 2px;
     border-radius: 10px;
 }
-.madrak .reshteh{
+
+.madrak .reshteh {
     font-weight: bold;
 }
 
-.eshtghalgroup label{
+.eshtghalgroup label {
     padding: 2px 8px !important;
     font-weight: bold;
     border-radius: 5px
 }
 
-.title-col{
-    background-color: #eee;
+.title-col {
+    /* background-color: #eee; */
     font-weight: bold;
     font-size: 12px
 }
-.title-col1{
+
+.title-col1 {
     background-color: #eee;
     color: black;
     font-size: 12px;
-    font-weight:normal !important;
+    font-weight: normal !important;
     text-align: right !important
 }
-.mojavez_year{
+
+.mojavez_year {
     background-color: bisque !important;
 }
-.mojavez_payeh_color1{
+
+.mojavez_payeh_color1 {
     background-color: brown !important;
     color: white
 }
-.mojavez_payeh_color2{
+
+.mojavez_payeh_color2 {
     background-color: olivedrab !important;
     color: white
 }
-.mojavez_payeh_color3{
+
+.mojavez_payeh_color3 {
     background-color: darkorchid !important;
     color: white
 }
-.mojavez_payeh_color4{
-    background-color:  #6b5fb9 !important;
+
+.mojavez_payeh_color4 {
+    background-color: #6b5fb9 !important;
     color: white
 }
-.mojavez_payeh_color5{
+
+.mojavez_payeh_color5 {
     background-color: chocolate !important;
     color: white
 }
-.mojavez_payeh_color6{
+
+.mojavez_payeh_color6 {
     background-color: #1a75ff !important;
     color: white
 }
 
-.mojavez_reshteh_color3{
+.mojavez_reshteh_color3 {
     background-color: cyan !important;
 }
-.mojavez_reshteh_color4{
+
+.mojavez_reshteh_color4 {
     background-color: orange !important;
 }
-.mojavez_reshteh_color5{
-    background-color: chartreuse !important;
-}
-.mojavez_reshteh_color6{
+
+.mojavez_reshteh_color5 {
     background-color: chartreuse !important;
 }
 
-.mojavez_jenseyat_color1{
-    background-color:  #b3ecff !important;
+.mojavez_reshteh_color6 {
+    background-color: chartreuse !important;
 }
-.mojavez_jenseyat_color2{
+
+.mojavez_jenseyat_color1 {
+    background-color: #b3ecff !important;
+}
+
+.mojavez_jenseyat_color2 {
     background-color: #f9d2f9 !important;
 }
-.mojavez_jenseyat_color3{
+
+.mojavez_jenseyat_color3 {
     background-color: #ffff99 !important;
 }
 
-.mojavez_school_name{
+.mojavez_school_name {
     background-color: olive;
     color: white;
     margin-top: 2px;
@@ -620,6 +754,7 @@ background-color: navajowhite;
     padding: 0 4px;
     margin-top: 2px;
 }
+
 .mozavez_table>tbody>tr>td {
     padding: 7px 8px !important;
 }
@@ -627,83 +762,155 @@ background-color: navajowhite;
 .mozavez_table>tbody>tr>td>input {
     font-size: 17px !important;
     text-align: center !important;
-    height: 30px  !important;
+    height: 30px !important;
 }
-.mozavez_table>tbody>tr{
-    font-weight:  bold;
+
+.mozavez_table>tbody>tr {
+    font-weight: bold;
 }
-.mozave_error_input{
-   border: 2px solid red !important;
+
+.mozave_error_input {
+    border: 2px solid red !important;
 }
-.tarakom-1{
+
+.tarakom-1 {
     background-color: silver !important;
 }
-.tarakom-2{
+
+.tarakom-2 {
     background-color: greenyellow !important;
 }
-.tarakom-3{
+
+.tarakom-3 {
     background-color: orange !important;
 }
-.tarakom-4{
+
+.tarakom-4 {
     background-color: red !important;
 }
-.tarakom-5{
+
+.tarakom-5 {
     background-color: #ffff00 !important;
 }
-.bs-example >ol>li{
+
+.bs-example>ol>li {
     margin: 8px 0;
 }
-#gozar input{
+
+#gozar input {
     text-align: center;
 }
-#hedayat input{
+
+#hedayat input {
     text-align: center;
 }
-.fix_width_6{
-    width:6%;
+
+.fix_width_6 {
+    width: 6%;
 }
-.fix_width_7{
-    width:8%;
+
+.fix_width_7 {
+    width: 8%;
 }
-.nazari{
+
+.nazari {
     background-color: #ccff80;
 }
-.fani{
+
+.fani {
     background-color: bisque;
 }
-.kardanesh{
+
+.kardanesh {
     background-color: powderblue;
 }
 
-.form_span{
+.form_span {
     float: right;
     margin-left: 10px
 }
-.post-div{
+
+.post-div {
     margin: 5px 0px;
 }
-.reshtetadri-div{
+
+.reshtetadri-div {
     margin-bottom: 2px;
 }
 
-.text-blue-1{
+.text-blue-1 {
     color: #005ce6;
 }
-.text-green-1{
+
+.text-green-1 {
     color: #009900;
 }
-.text-pink-1{
+
+.text-pink-1 {
     color: #b30086;
 }
-.text-brown-1{
+
+.text-brown-1 {
     color: saddlebrown;
 }
-.text-red-1{
+
+.text-red-1 {
     color: crimson;
 }
-.text-blue-2{
+
+.text-blue-2 {
     color: slateblue;
 }
-.text-blue-3{
+
+.text-blue-3 {
     color: blueviolet;
+}
+
+.table-bordered,
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid black !important;
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    padding: 1px 2px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+/* 
+.table-hover>tbody>tr:hover {
+    background-color: #ecf3f8; 
+} */
+
+
+.activebef {
+    right: auto;
+    left: -21px;
+}
+
+.activebef {
+    content: "\f0da";
+}
+
+.activebef {
+    content: "\f0d9";
+    font-family: FontAwesome;
+    display: block;
+    height: 27px;
+    line-height: normal;
+    width: 27px;
+    position: absolute;
+    right: -21px;
+    font-size: 20px;
+    color: #eee;
 }

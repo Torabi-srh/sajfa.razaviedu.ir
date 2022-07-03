@@ -24,6 +24,7 @@
       <nav>
         <ul class="">
           <li class="active"><a href="/user/Users/dashboard" class="">
+              <!-- <font-awesome-icon :icon="['fa', 'fa-caret-right']" class="activebef float-left" /> -->
               <font-awesome-icon :icon="['fa', 'fa-dashboard']" />
               <span class="menu-item-parent">پيشخوان </span>
             </a></li>

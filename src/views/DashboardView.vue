@@ -23,7 +23,8 @@ import ArticleCards from "@/components/admin/ArticleCards.vue";
             </div>
             <div class="sm:w-full pr-4 pl-4"></div>
             <ArticleCards TitleText=" نقش های شما " HeaderColor="jarviswidget-color-redLight " Archive="false">
-                <table class="w-full max-w-full mb-4 bg-transparent table-striped table-bordered table-hover "
+
+                <table class="w-full max-w-full mb-4 table-striped table-bordered table-hover"
                     style="font-size: 13px;">
                     <thead>
                         <tr>
