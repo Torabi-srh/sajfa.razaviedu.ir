@@ -7,7 +7,8 @@
     <div style="text-align: center; font-weight: 700; font-size: 14px; width:75%; " id="logo-group">
       <span style="font-size: 14px;width: 100%; color: #8f0e17" id="activity">همکار محترم، سحر ترابی دشت بیاض (30379924)
         <!--            <span style="font-size: 14px;color: blueviolet;">، به سامانه مدیریت و برنامه ریزی نیروی انسانی (مبنا)  خوش آمديد. </span>-->
-        <span style="font-size: 14px;color: blueviolet;">، به سامانه جامع فرآیندهای اداری آموزشی (سجفا) خوش آمدید.
+        <span class="font-bold" style="font-size: 14px;color: blueviolet;">، به سامانه جامع فرآیندهای اداری آموزشی
+          (سجفا) خوش آمدید.
         </span>
 
       </span>
@@ -39,7 +40,8 @@
       <!-- fullscreen button -->
       <div id="fullscreen" class="btn-header transparent pull-right">
         <span> <a href="javascript:void(0);" data-action="launchFullscreen" title="تمام صفحه">
-            <font-awesome-icon :icon="['fa', 'arrows-alt']" style="-ms-transform: rotate(45deg); transform: rotate(45deg);" />
+            <font-awesome-icon :icon="['fa', 'arrows-alt']"
+              style="-ms-transform: rotate(45deg); transform: rotate(45deg);" />
           </a> </span>
       </div>
       <!-- end fullscreen button -->

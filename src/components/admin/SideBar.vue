@@ -25,37 +25,37 @@
         <ul class="">
           <li class="active"><a href="/user/Users/dashboard" class="">
               <!-- <font-awesome-icon :icon="['fa', 'fa-caret-right']" class="activebef float-left" /> -->
-              <font-awesome-icon :icon="['fa', 'fa-dashboard']" />
-              <span class="menu-item-parent">پيشخوان </span>
+              <font-awesome-icon class="text-xl ml-3" :icon="['fa', 'fa-dashboard']" />
+              <span class="menu-item-parent font-bold text-sm">پيشخوان </span>
             </a></li>
           <li><a href="/personal/Personals/person_details" class="">
-              <font-awesome-icon :icon="['fa', 'fa-user']" />
-              <span class="menu-item-parent">مشخصات پرسنلی</span>
+              <font-awesome-icon class="text-xl ml-3" :icon="['fa', 'fa-user']" />
+              <span class="menu-item-parent font-bold text-sm">مشخصات پرسنلی</span>
             </a></li>
           <li><a href="/personal/Enteghalats/intro" class="">
-              <font-awesome-icon :icon="['fa', 'fa-exchange']" />
-              <span class="menu-item-parent">درخواست انتقال</span>
+              <font-awesome-icon class="text-xl ml-3" :icon="['fa', 'fa-exchange']" />
+              <span class="menu-item-parent font-bold text-sm">درخواست انتقال</span>
             </a></li>
           <li><a href="/personal/Bazneshates/intro" class="">
-              <font-awesome-icon :icon="['fa', 'fa-flag-checkered']" />
-              <span class="menu-item-parent">بازنشستگی یا
+              <font-awesome-icon class="text-xl ml-3" :icon="['fa', 'fa-flag-checkered']" />
+              <span class="menu-item-parent font-bold text-sm">بازنشستگی یا
                 استمرار</span>
             </a></li>
           <li><a href="/personal/Changesemats/intro" class="">
-              <font-awesome-icon :icon="['fa', 'fa-table']" /> <span class="menu-item-parent">درخواست
+              <font-awesome-icon class="text-xl ml-3" :icon="['fa', 'fa-table']" /> <span class="menu-item-parent font-bold text-sm">درخواست
                 تغییر
                 سمت</span>
             </a></li>
           <li><a href="/user/Users/proccesses1" class="" target="_blank">
-              <font-awesome-icon :icon="['fa', 'fa-tasks']" />
-              <span class="menu-item-parent">ارزشیابی</span>
+              <font-awesome-icon class="text-xl ml-3" :icon="['fa', 'fa-tasks']" />
+              <span class="menu-item-parent font-bold text-sm">ارزشیابی</span>
             </a></li>
           <li><a href="/taghdirname/Taghdirnames/list_for_persone" class="">
-              <font-awesome-icon :icon="['fa', 'fa-database']" /> <span class="menu-item-parent">تقدیرنامه ها</span>
+              <font-awesome-icon class="text-xl ml-3" :icon="['fa', 'fa-database']" /> <span class="menu-item-parent font-bold text-sm">تقدیرنامه ها</span>
             </a>
           </li>
           <li><a href="/user/Users/editpass" class="">
-              <font-awesome-icon :icon="['fa', 'fa-key']" /> <span class="menu-item-parent">تغییر رمز</span>
+              <font-awesome-icon class="text-xl ml-3" :icon="['fa', 'fa-key']" /> <span class="menu-item-parent font-bold text-sm">تغییر رمز</span>
             </a></li>
         </ul>
       </nav>

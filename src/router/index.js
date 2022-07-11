@@ -7,6 +7,7 @@ import ArchiveView2 from "../views/ArchiveView2.vue";
 import PersonDetails from "../views/personal/Personals/PersonDetails.vue";
 import Enteghalats from "../views/personal/Enteghalats/IntroView.vue";
 import Bazneshates from "../views/personal/Bazneshates/IntroView.vue";
+import NodesShow from "../views/nodes/nodes/ShowView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -50,6 +51,11 @@ const router = createRouter({
       path: "/personal/Bazneshates/intro",
       name: "bazneshates_view",
       component: Bazneshates,
+    },
+    {
+      path: "/nodes/nodes/show/:id",
+      name: "nodes_show",
+      component: NodesShow,
     },
   ],
 });

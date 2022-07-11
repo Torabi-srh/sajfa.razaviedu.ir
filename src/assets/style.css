@@ -671,7 +671,7 @@
 }
 
 .title-col {
-    /* background-color: #eee; */
+    background-color: #eee;
     font-weight: bold;
     font-size: 12px
 }
@@ -913,4 +913,13 @@
     right: -21px;
     font-size: 20px;
     color: #eee;
+}
+
+.text-danger {
+    color: #b94a48;
+}
+
+b,
+strong {
+    font-weight: 700;
 }

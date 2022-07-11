@@ -22,15 +22,21 @@ This set of fonts are used in this project under the license: (.....)
 	font-weight: bold;
 	src: url('/fonts/IRANSansWeb(FaNum)_Bold.woff2') format('woff2');
 }
+
 @font-face {
 	font-family: IRANSans;
 	font-style: normal;
 	font-weight: 300;
 	src: url('/fonts/IRANSansWeb(FaNum)_Light.woff2') format('woff2');
 }
+
 @font-face {
 	font-family: IRANSans;
 	font-style: normal;
 	font-weight: normal;
 	src: url('/fonts/IRANSansWeb(FaNum).woff2') format('woff2');
+}
+
+body {
+	font-weight: 300;
 }

@@ -39,54 +39,69 @@
                                                     </div>
                                                     <div class="sm:w-5/6 pr-4 pl-4 grid grid-flow-row">
                                                         <div class="sm:w-full pr-4 pl-4 flex  ">
-                                                            <div class="pr-4 pl-4 w-1/3">کد پرسنلی : <strong
-                                                                    class="text-red-600">30379924</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3">نام پدر : <strong
-                                                                    class="text-red-600">محمدعلی</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3">کد ملی : <strong
-                                                                    class="text-red-600">0942376617</strong></div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">کد پرسنلی :
+                                                                <strong class="text-danger">30379924</strong>
+                                                            </div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">نام پدر :
+                                                                <strong class="text-danger">محمدعلی</strong>
+                                                            </div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">کد ملی :
+                                                                <strong class="text-danger">0942376617</strong>
+                                                            </div>
                                                         </div>
                                                         <div class="sm:w-full pr-4 pl-4 flex  ">
-                                                            <div class="pr-4 pl-4 w-1/3">نام : <strong
-                                                                    class="text-red-600">سحر</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3">وضعیت تاهل : <strong
-                                                                    class="text-red-600">متاهل</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3"> شماره شناسنامه: <strong
-                                                                    class="text-red-600">2300</strong></div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">نام :
+                                                                <strong class="text-danger">سحر</strong>
+                                                            </div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">وضعیت تاهل :
+                                                                <strong class="text-danger">متاهل</strong>
+                                                            </div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light"> شماره
+                                                                شناسنامه: <strong class="text-danger">2300</strong>
+                                                            </div>
                                                         </div>
                                                         <div class="sm:w-full pr-4 pl-4 flex  ">
-                                                            <div class="pr-4 pl-4 w-1/3">نام خانوادگی : <strong
-                                                                    class="text-red-600">ترابی دشت بیاض</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3">تعداد فرزند : <strong
-                                                                    class="text-red-600">0</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3"> موبایل 1: <strong
-                                                                    class="text-red-600">09151175262</strong></div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">نام خانوادگی
+                                                                : <strong class="text-danger">ترابی دشت بیاض</strong>
+                                                            </div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">تعداد فرزند
+                                                                : <strong class="text-danger">0</strong></div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light"> موبایل 1:
+                                                                <strong class="text-danger">09151175262</strong>
+                                                            </div>
 
                                                         </div>
                                                         <div class="sm:w-full pr-4 pl-4 flex  ">
-                                                            <div class="pr-4 pl-4 w-1/3">محل تولد : <strong
-                                                                    class="text-red-600">مشهد</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3">وضعیت ایثارگری: <strong
-                                                                    class="text-red-600">-----</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3">موبایل 2: <strong
-                                                                    class="text-red-600"></strong></div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">محل تولد :
+                                                                <strong class="text-danger">مشهد</strong>
+                                                            </div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">وضعیت
+                                                                ایثارگری: <strong class="text-danger">-----</strong>
+                                                            </div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">موبایل 2:
+                                                                <strong class="text-danger"></strong>
+                                                            </div>
                                                         </div>
                                                         <div class="sm:w-full pr-4 pl-4 flex  ">
-                                                            <div class="pr-4 pl-4 w-1/3">تاریخ تولد : <strong
-                                                                    class="text-red-600">۱۳۵۳/۱۱/۱۱</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3">نسبت با ایثارگر : <strong
-                                                                    class="text-red-600"></strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3"> تلفن ثابت: <strong
-                                                                    class="text-red-600"></strong></div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">تاریخ تولد :
+                                                                <strong class="text-danger">۱۳۵۳/۱۱/۱۱</strong>
+                                                            </div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">نسبت با
+                                                                ایثارگر : <strong class="text-danger"></strong></div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light"> تلفن ثابت:
+                                                                <strong class="text-danger"></strong>
+                                                            </div>
                                                         </div>
                                                         <div class="sm:w-full pr-4 pl-4 flex  ">
-                                                            <div class="pr-4 pl-4 w-1/3">سن (تاکنون): <strong
-                                                                    class="text-red-600">47 سال و 5 ماه و 6 روز
-                                                                </strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3">درصد ایثارگر : <strong
-                                                                    class="text-red-600">0</strong></div>
-                                                            <div class="pr-4 pl-4 w-1/3"> شماره پرسنلی همسر : <strong
-                                                                    class="text-red-600"></strong></div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">سن (تاکنون):
+                                                                <strong class="text-danger">47 سال و 5 ماه و 6 روز
+                                                                </strong>
+                                                            </div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light">درصد ایثارگر
+                                                                : <strong class="text-danger">0</strong></div>
+                                                            <div class="pr-4 pl-4 w-1/3 text-sm font-light"> شماره
+                                                                پرسنلی همسر : <strong class="text-danger"></strong>
+                                                            </div>
                                                         </div>
                                                     </div>
 
@@ -132,12 +147,12 @@
                                             style="margin-top: 5px; font-size: 13px">
                                             <thead>
                                                 <tr>
-                                                    <th>نوع مدرک</th>
-                                                    <th>سطح مدرک</th>
-                                                    <th>رشته تحصیلی</th>
-                                                    <!-- <th >گروه رشته </th> -->
-                                                    <th>دانشگاه محل اخذ</th>
-                                                    <th>تاریخ اخذ</th>
+                                                    <th class="font-bold text-xs">نوع مدرک</th>
+                                                    <th class="font-bold text-xs">سطح مدرک</th>
+                                                    <th class="font-bold text-xs">رشته تحصیلی</th>
+                                                    <!-- <th class="font-bold text-xs" >گروه رشته </th> -->
+                                                    <th class="font-bold text-xs">دانشگاه محل اخذ</th>
+                                                    <th class="font-bold text-xs">تاریخ اخذ</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -278,7 +293,7 @@
                               margin-top: 0px !important;
                               padding-top: 0px !important;
                             ">
-                                                        <legend class="label label-redLight"
+                                                        <legend class="label label-redLight w-full"
                                                             style="font-size: 14px !important">
                                                             <strong>سنوات خدمتی</strong>
                                                         </legend>
@@ -327,31 +342,36 @@
                               margin-top: 0px !important;
                               padding-top: 0px !important;
                             ">
-                                                        <legend class="label label-success"
+                                                        <legend class="label label-success w-full"
                                                             style="font-size: 14px !important">
                                                             <strong>وضعیت تقلیل ساعت</strong>
                                                         </legend>
                                                         <div
                                                             class="flex flex-wrap block w-full overflow-auto scrolling-touch">
                                                             <table
-                                                                class="w-full max-w-full mb-4 bg-transparent table-hover"
-                                                                style="
+                                                                class="w-full max-w-full mb-4 bg-transparent table-hover table-auto">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="title-col1">تاریخ 50سال سن :</td>
+                                                                        <td style="
                                   margin-top: 5px;
                                   font-size: 13px;
                                   margin-bottom: 0px;
                                   color: #739e73;
                                   font-weight: bold;
-                                ">
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td class="title-col1">تاریخ 50سال سن :</td>
-                                                                        <td>۱۴۰۳/۱۱/۱۲</td>
+                                text-align: center;">۱۴۰۳/۱۱/۱۲</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="title-col1">
                                                                             تاریخ سنوات 20 سال (در پرسنلی) :
                                                                         </td>
-                                                                        <td>۱۴۰۱/۰۴/۰۱</td>
+                                                                        <td style="
+                                  margin-top: 5px;
+                                  font-size: 13px;
+                                  margin-bottom: 0px;
+                                  color: #739e73;
+                                  font-weight: bold;
+                                text-align: center;">۱۴۰۱/۰۴/۰۱</td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="title-col1">
@@ -980,7 +1000,7 @@
                             padding-top: 0px !important;
                             padding-left: 3em !important;
                           ">
-                                                    <legend class="label label-greenLight"
+                                                    <legend class="label label-greenLight w-full"
                                                         style="font-size: 14px !important">
                                                         <strong>الف) سوابق و امتیازهای پرسنلی</strong>
                                                     </legend>
@@ -995,7 +1015,7 @@
                             padding-top: 0px !important;
                             padding-left: 3em !important;
                           ">
-                                                    <legend class="label label-success"
+                                                    <legend class="label label-success w-full"
                                                         style="font-size: 14px !important">
                                                         <strong>ب) سوابق و امتیازهای آموزشی </strong>
                                                     </legend>
